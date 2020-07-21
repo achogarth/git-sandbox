@@ -1,2 +1,2 @@
 # git-sandbox
-sandbox for getting to know git
+## sandbox for getting to know git
