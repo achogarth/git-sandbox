@@ -1,6 +1,10 @@
-print("Hello World")
+#!/usr/bin/env python
+def hello(s):
+    print ("Hello ", s)
 
-def hello():
-    print ("Hello again")
+def hellocall():
+    print("Hello from module")
 
-hello()
+if __name__ == "__main__":
+    import sys
+    hello(sys.argv[1])
